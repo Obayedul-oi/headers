@@ -42,51 +42,110 @@
     border-radius: 30px;
 }
 
-
-.sec_header {
-    padding: 10px 40px;
-    margin-top: 30px;
-    background-color: rgb(223, 158, 158);
-    display: flex;
-    justify-content: space-between;
+/* .banner{
+    width: 100%;
+    height: fit-content;
+    background-color: #011217;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
     align-items: center;
-
+    padding: 120px 40px;
+    color: white;
 }
 
-.brand{
+.banner_image{
+    padding: 50px;
+}
+
+
+.title{
+    font-size: 60px;
+    text-transform: uppercase;
+    line-height: 70px;
+}
+
+.description{
+    margin: 30px 0px;
+}
+
+.buttons{
     display: flex;
-    gap: 10px;
     align-items: center;
-    text-decoration: none;
-}
-.logo_new {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
+    gap: 30px;
 }
 
-.logo_and_name {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    list-style: none;
-}
-
-.nav_items_two {
-    display: flex;
-    gap: 40px;
-    list-style: none;
-    align-items: center;
-    text-decoration: none;
-
-
-}
-
-.nav_items_two a{
-    text-decoration: none;
-}
-
-.nav_button_two {
+.download_button{
+    background-color: #55e6a5;
     border: 0;
     padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.watch_now_button{
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+}
+
+.hero_img{
+border-top-left-radius: 50%;
+border-top-right-radius: 50%;
+} */
+
+
+.hero_section{
+width: 100%;
+height: fit-content;
+background-color: #011217;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 30px;
+align-items: center;
+padding: 120px 40px;
+color: white;
+
+}
+
+.title_hero{
+    font-size: 60px;
+    text-transform: uppercase;
+    line-height: 70px;
+}
+
+.description_hero{
+    margin: 30px 0;
+}
+
+.buttons_hero{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.buttoone{
+    border: 0;
+    background-color: #55e6a5;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.buttotwo{
+    border: 0;
+background-color: transparent;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+
+}
+
+.chobi{
+border-top-left-radius: 50%;
+border-top-right-radius: 50%;
 }
